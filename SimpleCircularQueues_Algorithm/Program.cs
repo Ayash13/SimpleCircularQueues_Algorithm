@@ -26,6 +26,13 @@ namespace SimpleCircularQueues_Algorithm
                 Console.WriteLine("\nQueue overflow\n");
                 return;
             }
+            /*The following statement checks whether the queue is empty. If the queue is empty,
+             then the value of the REAR and FRONT variables is set to 0.*/
+            if (FRONT == -1)
+            {
+                FRONT = 0;
+                REAR = 0;
+            }
             
         }
        
