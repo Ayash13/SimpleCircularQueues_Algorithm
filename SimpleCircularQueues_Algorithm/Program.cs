@@ -20,6 +20,12 @@ namespace SimpleCircularQueues_Algorithm
         }
         public void insert(int element)
         {
+            /*This statement checks for the overflow condition. */
+            if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1))
+            {
+                Console.WriteLine("\nQueue overflow\n");
+                return;
+            }
             
         }
        
