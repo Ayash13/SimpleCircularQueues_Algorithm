@@ -54,7 +54,14 @@ namespace SimpleCircular
                 Console.WriteLine("Queue underflow\n");
                 return;
             }
-           
+            Console.WriteLine("\nThe element deleted from the queue is: " + queue_array[FRONT] + "\n");
+            /*Checks if the queue has one element. */
+            if (FRONT == REAR)
+            {
+                FRONT = -1;
+                REAR = -1;
+            }
+            
         }
        
     }
