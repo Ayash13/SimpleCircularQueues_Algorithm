@@ -117,7 +117,9 @@ namespace SimpleCircularA
     {
         static void Main(string[] args)
         {
-            
+            Queues q = new Queues();
+            char ch;
+           
         }
     }
 }
