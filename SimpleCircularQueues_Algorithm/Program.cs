@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleCircular
+namespace SimpleCircularA
 {
     class Queues
     {
@@ -72,8 +72,12 @@ namespace SimpleCircular
                     FRONT = FRONT + 1;
             }
         }
-       
+        public void display()
+        {
+            int FRONT_position = FRONT;
+            int REAR_position = REAR;
+           
+        }
     }
-    
-    
+   
 }
