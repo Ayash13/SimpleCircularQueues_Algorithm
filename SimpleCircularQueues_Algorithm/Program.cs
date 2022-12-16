@@ -76,6 +76,13 @@ namespace SimpleCircularA
         {
             int FRONT_position = FRONT;
             int REAR_position = REAR;
+            // Checks if the queue is empty.
+            if (FRONT == -1)
+            {
+                Console.WriteLine("Queue is empty\n");
+                return;
+            }
+            Console.WriteLine("\nElements in the queue are .........................\n");
            
         }
     }
