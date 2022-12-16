@@ -83,6 +83,16 @@ namespace SimpleCircularA
                 return;
             }
             Console.WriteLine("\nElements in the queue are .........................\n");
+            if (FRONT_position <= REAR_position)
+            {
+                // Traverse the queue till the last element present in an array.
+                while (FRONT_position <= REAR_position)
+                {
+                    Console.Write(queue_array[FRONT_position] + "   ");
+                    FRONT_position++;
+                }
+                Console.WriteLine();
+            }
            
         }
     }
