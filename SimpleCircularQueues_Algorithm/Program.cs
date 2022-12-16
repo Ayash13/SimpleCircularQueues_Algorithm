@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleCircularQueues_Algorithm
+namespace SimpleCircular
 {
     class Queues
     {
@@ -46,7 +46,12 @@ namespace SimpleCircularQueues_Algorithm
             // Once the position of the REAR is dtermined, the element is added at its proper place.
             queue_array[REAR] = element;
         }
+        public void remove()
+        {
+           
+        }
        
     }
+    
     
 }
